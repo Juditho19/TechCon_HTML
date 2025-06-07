@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            
+            <h2>Contact Information</h2>
+            <p>Email us at: <a href="mailto:email@example.com">email@example.com</a></p>
+            <p>Follow us on:</p>
+            <ul>
+                <li><a href="https://instagram.com/TechCon2024" target="_blank">Instagram</a></li>
+                <li><a href="https://facebook.com/TechCon2024" target="_blank">Facebook</a></li>
+                
+            </ul>
+        </section>
+
+        <section>
+            <h2>Venue Location</h2>
+            <iframe
+             src="https://www.google.com/maps/embed?pb=..."
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+            </iframe>
+        </section>
+
+        <section>
+            <h2>Contact Us Form</h2>
+
+            <form action="/contact-for" method="post">
+
+                <label for="full-name">Full name:</label>
+                <input type="text" id="full-name" name="full-name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+            
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TechCon Conference. All rights reserved. </p>
+    </footer>
+    
+</body>
+</html>
